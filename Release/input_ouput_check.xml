@@ -1,0 +1,10 @@
+<input_output_check>
+  <item module_name="Reconstruct Signal N2" input_less="N2.ValidData,N2.SignalFlt," output_less="Nac.VoteData,N2_1,N2.SensorFlt,FAULT,Nac.SensorFlt,NOFAULT,Nac_1,ModelLimit,N2Design,NacVsN2,N2r25p," />
+  <item module_name="Reconstruct Signal P3b" input_less="N2.SensorFlt,N2.SignalFlt,P3b.ValidData,P3b.SignalFlt," output_less="ChanSts,totalperiod,Nac_1,FAULT,Ps3.VoteData,P3b.SensorFlt,Ps3.SensorFlt,NOFAULT,A," />
+  <item module_name="Continuous Time Signal" input_less="XX.VoteData,XX.SensorFlt,XX.OTFlt," output_less="XX.DiagData,ChanSts,XX.SelfFlt,XX.PtnrDiagData,CCDLFlt,XX.PtnrFlt,XX.PreVoteData,XX.FirstFlag,XX.InitVal,XX.PreDiagData,NOFAULT,FAULT,XX.WarpLimit," />
+  <item module_name="Signal T25 Process" input_less="T25.SelfFlt,T25.DiagData,T25.SignalFlt,T25.ValidData,T25.LeadData," output_less="T25.FirstFlag,T25.InitVal,T25.LastLeadData,T25.StepLimit," />
+  <item module_name="Danger Alert about SWI15" input_less="SWI15.flt,SWI15.canClear," output_less="ES,ES_NORMALSTOP,false," />
+  <item module_name="Calculate Angle" input_less="Wx,Wy,Wz," output_less="Ax,Ay,Az,pi," />
+  <item module_name="Get Angular Velocity" input_less="" output_less="" />
+  <item module_name="Reconstruct Angular Velocity" input_less="" output_less="" />
+</input_output_check>
